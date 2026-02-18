@@ -25,6 +25,10 @@ An Android app that delivers a fresh image and inspirational quote every day —
 
 > [Watch screen recording](demo/demo.mp4)
 
+
+https://github.com/user-attachments/assets/419a84e0-1a45-4798-af80-a1c9bd916af0
+
+
 ---
 
 ## Tech Stack
