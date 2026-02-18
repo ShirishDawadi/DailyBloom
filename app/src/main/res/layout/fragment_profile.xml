@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memories"
+        android:fontFamily="@font/dancing_script"
+        android:textColor="?attr/quoteTextColor"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        />
+    <com.applandeo.materialcalendarview.CalendarView
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:headerColor="@color/pink_3"
+        app:firstDayOfWeek="sunday"
+        app:headerLabelColor="?attr/quoteTextColor"
+        app:pagesColor="?attr/quoteBackgroundColor"
+        app:daysLabelsColor="?attr/quoteTextColor"
+        app:abbreviationsLabelsColor="?attr/quoteTextColor"
+        app:abbreviationsBarColor="?attr/quoteBackgroundColor"
+        app:todayLabelColor="@color/pink_5"
+        />
+
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:outlineSpotShadowColor="@color/pink_5"
+        android:outlineAmbientShadowColor="@color/pink_5"
+        android:visibility="visible"/>
+
+</LinearLayout>
